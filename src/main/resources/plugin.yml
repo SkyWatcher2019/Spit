@@ -1,0 +1,15 @@
+name: Spit
+version: '${version}'
+main: ru.skywatcher_2019.spit.Main
+api-version: 1.19
+load: STARTUP
+authors: [ SkyWatcher_2019 ]
+description: A spit plugin
+
+commands:
+  spit:
+    permission: spit.use
+    permission-message: 'No permission'
+permissions:
+  spit.use:
+    default: true
